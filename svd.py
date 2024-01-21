@@ -1,7 +1,6 @@
 import numpy as np
-from numpy.linalg import norm
 import pandas as pd
-
+from numpy.linalg import norm
 from random import normalvariate
 from math import sqrt
 
@@ -108,7 +107,6 @@ def get_high_recommended_movies(user_id, max_recommend=100):
     return recommend_name
 
 
-# user_id = 156
 while True:
     try:
         user_id = int(input('Enter user_id: '))
